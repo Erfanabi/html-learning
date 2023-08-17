@@ -1,0 +1,30 @@
+// @import "core/variables";
+@import "core/mixin";
+
+@import "components/button";
+@import "components/card";
+@import "components/form";
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    @include shadow();
+
+    li {
+        background-color: red;
+        @include shadow1(red);
+
+
+        a {
+            font-weight: bold;
+            font-size: 25px;
+            @include shadow2(25px,blue);
+        }
+
+        &:hover {
+            background-color: gold;
+        }
+    }
+
+}

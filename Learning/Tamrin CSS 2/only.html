@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+
+        .color{
+           background-color: red;
+        }
+
+        .visibility{
+            background-color: blue;
+        }
+
+        @media only screen and (max-width:550px) {
+            .visibility{
+                display: none;
+            }
+
+            .color{
+                background-color: blueviolet;
+                transform: scale(0.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="color">
+        <p>Red on desktop</p>
+        <p>Blue on mobile</p>
+    </div>
+
+    <br><br><br>
+
+    <div class="visibility">
+        <p>Show on desktop</p>
+        <p>Hide on desktop</p>
+    </div>
+</body>
+
+</html>

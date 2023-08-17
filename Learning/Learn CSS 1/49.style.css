@@ -1,0 +1,23 @@
+.parent {
+    background-color: chartreuse;
+    height: 400px;
+    width: 350px;
+    /* padding: 10px;
+    margin: auto; */
+    position: relative;
+}
+
+.child {
+    background-color: red;
+    /* width: 340px; */
+    width: 50%;
+    min-width: 300px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    /* bottom: 0; */
+}
+
+.sibling {
+    background-color: gold;
+}

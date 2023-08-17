@@ -1,0 +1,52 @@
+.container {
+    width: 50vh;
+    height: 50vw;
+    position: relative;
+    margin: 25vh auto;
+    perspective: 1000px;
+}
+
+.container .shadow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+.container .transform {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 217, 0, 0.657);
+}
+
+.container .transform p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    margin: 0;
+}
+
+
+
+.transform {
+    /* transform: rotateX(30deg); */
+    /* transform: rotateY(45deg); */
+    /* transform:rotateY(45deg) rotateX(30deg) ; */
+    transform: translateZ(50px);
+
+    /* transform: rotateX(30deg) translateZ(30px); */
+
+}

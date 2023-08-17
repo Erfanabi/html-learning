@@ -1,0 +1,29 @@
+@import "core/mixin";
+
+
+
+.border-primary {
+    @include border(red, 10px);
+}
+
+.linear-primary {
+    @include linear-gradient(red, blue);
+}
+
+
+@include card("orang", orange);
+
+@include card("blu", blue);
+
+
+.btn-primary {
+    background-color: chocolate;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.btn{
+    @extend .btn-primary
+}
+

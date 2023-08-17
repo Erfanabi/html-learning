@@ -1,0 +1,21 @@
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/font';
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/form';
+
+
+@mixin button($name, $color) {
+    .btn-#{$name} {
+        background-color: $color;
+        color: #fff;
+        padding: 8px 12px;
+    }
+}
+
+
+@include button('primary', lightblue);
+@include button('danger', tomato);
+@include button('warning', gold);

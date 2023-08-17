@@ -1,0 +1,24 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.color {
+    background-color: red;
+}
+
+.visibility {
+    border: 1px solid black;
+    /* display: block; */
+}
+
+
+@media only screen and (max-width:560px) {
+    .color {
+        background-color: blue;
+    }
+
+    .visibility {
+        display: none;
+    }
+}

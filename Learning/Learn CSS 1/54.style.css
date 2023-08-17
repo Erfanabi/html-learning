@@ -1,0 +1,13 @@
+span {
+    background-color: rgb(132, 132, 232);
+}
+
+.myspan {
+    display: block;
+    margin: 30px 0;
+    width: 400px;
+
+
+    /* display: inline-block;
+    width: 300px; */
+}

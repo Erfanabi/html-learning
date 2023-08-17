@@ -1,0 +1,29 @@
+body {
+    line-height: 1.25;
+}
+
+.fa {
+    direction: rtl;
+    text-align: justify;
+
+}
+
+.en {
+    text-align: justify;
+}
+
+h1 {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+p.en {
+    /* font-family: Sofia; */
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+/* h1.en {
+    font-family: Verdana;
+} */

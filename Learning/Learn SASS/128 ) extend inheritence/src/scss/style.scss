@@ -1,0 +1,28 @@
+@import "core/variables";
+@import "core/mixin";
+
+@import "components/button";
+@import "components/card";
+@import "components/form";
+
+.btn-primary{
+    border-radius: 9px;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.btn-submit{
+    @extend .btn-primary;
+    background-color: gold;
+}
+
+.btn-report{
+    @extend .btn-primary;
+    background-color: tomato;
+}
+
+.btn-reset{
+    @extend .btn-primary;
+    background-color:darkblue;
+}

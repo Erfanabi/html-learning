@@ -1,0 +1,22 @@
+$font-directory: "/assets/fonts/";
+
+@font-face {
+    font-family: Dana;
+    src: url("#{$font-directory}dana/Dana-FaNum-Regular.ttf");
+}
+
+@font-face {
+    font-family: Dana;
+    font-weight: 200;
+    src: url("#{$font-directory}dana/Dana-FaNum-Light.ttf");
+}
+
+@font-face {
+    font-family: Dana;
+    font-weight: bold;
+    src: url("#{$font-directory}dana/Dana-FaNum-DemiBold.ttf");
+}
+
+body {
+    font-family: Dana;
+}

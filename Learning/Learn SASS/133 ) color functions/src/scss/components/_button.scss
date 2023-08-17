@@ -1,0 +1,25 @@
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@each $key, $value in $colors {
+    .btn.btn-#{$key} {
+        background-color: $value;
+        transition: background-color 120ms;
+        
+        &:hover{
+            background-color: darken($value,10);
+            // background-color: lighten($value,10);
+        }
+
+        box-shadow: 0px 8px 15px -2px fade-out($value, 0.2);
+    }
+
+}
+

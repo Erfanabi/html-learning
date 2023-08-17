@@ -1,0 +1,29 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: tomato;
+    margin: 30px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.parent .child{
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+button{
+    /* border: 2px solid red;
+    background-color: #fff;
+    border-radius: 3px; */
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Dana;
+  src: url("/assets/fonts/dana/Dana-FaNum-Regular.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: 200;
+  src: url("/assets/fonts/dana/Dana-FaNum-Light.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: bold;
+  src: url("/assets/fonts/dana/Dana-FaNum-DemiBold.ttf");
+}
+
+body {
+  font-family: Dana;
+}
+
+.btn {
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: lightblue;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.btn-danger {
+  background-color: tomato;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.btn-warning {
+  background-color: gold;
+  color: #fff;
+  padding: 8px 12px;
+}/*# sourceMappingURL=style.css.map */

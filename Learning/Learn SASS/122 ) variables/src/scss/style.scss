@@ -1,0 +1,14 @@
+$primary-color: blue;
+$font-size: 18px;
+$border:1px solid $primary-color;
+
+
+h1 {
+    color: $primary-color;
+    border: $border;
+}
+
+p {
+    color: blue;
+    font-size: $font-size;
+}

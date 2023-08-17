@@ -1,0 +1,26 @@
+body {
+    background-color: gold;
+    padding: 20px;
+    margin: 0;
+
+}
+
+div {
+    padding: 20px;
+
+    background-image: url(../../../../PAV/Photo/kashi2.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-position: right top;
+    background-attachment: fixed;
+    
+
+}
+
+/* div{
+    background:gold url(../../../../PAV/Photo/kashi2.jpg) no-repeat center;
+    background-size: 30%;
+} */
+

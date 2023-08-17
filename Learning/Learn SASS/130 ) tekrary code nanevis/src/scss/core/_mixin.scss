@@ -1,0 +1,16 @@
+@mixin border($color, $radius) {
+    border: 1px solid $color;
+    border-radius: $radius;
+}
+
+@mixin linear-gradient($color-1, $color-2) {
+    background: linear-gradient(to top, $color-1, $color-2);
+}
+
+@mixin card($name, $color) {
+    .card-#{$name} {
+        background-color: $color;
+        padding: 20px;
+        border: 1px solid $color;
+    }
+}

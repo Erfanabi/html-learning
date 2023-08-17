@@ -1,0 +1,31 @@
+.btn {
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn-primary, .btn-reset, .btn-report, .btn-submit {
+  border-radius: 9px;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-submit {
+  background-color: gold;
+}
+
+.btn-report {
+  background-color: tomato;
+}
+
+.btn-reset {
+  background-color: darkblue;
+}/*# sourceMappingURL=style.css.map */

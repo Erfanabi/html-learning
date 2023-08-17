@@ -1,0 +1,8 @@
+img{
+    width: 500px;
+    mask-image: url(../images/logo.png);
+
+    mask-size: contain;
+    mask-repeat: no-repeat ;
+    mask-position: center;
+}

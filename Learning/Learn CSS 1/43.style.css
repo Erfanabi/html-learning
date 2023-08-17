@@ -1,0 +1,75 @@
+/* h1 {
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+} */
+
+/* .classroom {
+    border: 1px solid black;
+}
+
+.student {
+    color: blue;
+}
+
+.teacher {
+    color: green;
+}
+
+.best {
+    font-weight: bold;
+}
+
+#farzad {
+    background-color: gold;
+}
+
+.classroom .student {
+    font-size: 12px;
+}
+
+.classroom li {
+    color: green;
+}
+
+h1.student {
+    font-family: Verdana;
+}
+.classroom p , li {
+    background-color: brown;
+}
+*/
+/* .classroom li {
+    color: blue;
+}
+
+li {
+    color: red;
+}
+
+ul li {
+    color: green;
+}
+
+.taskk li {
+    color: chocolate;
+}
+
+li{
+    color: darkred !important;
+} */
+
+.classroom li{
+    color: blue;
+}
+
+li{
+    color: red !important; 
+}
+
+/* ul li{
+    color: gold;
+} */
+.taskk li{
+    color: gold;
+}

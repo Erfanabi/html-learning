@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+div {
+    background-color: gold;
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+    padding: 30px;
+    box-sizing: border-box;
+}

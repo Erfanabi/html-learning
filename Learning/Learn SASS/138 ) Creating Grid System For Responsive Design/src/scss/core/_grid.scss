@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@for $i from 1 to 13 {
+    .col-#{$i}{
+        flex: $i;
+        width: calc(100% / $i);
+    }
+}

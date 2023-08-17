@@ -1,0 +1,43 @@
+/* h1 {
+    color: blue;
+} */
+
+.classroom {
+    font-size: 10px;
+    border: 1px solid black;
+}
+
+/* .student {
+    color: blueviolet;
+}
+
+.best {
+    font-weight: bold;
+} */
+
+.teacher {
+    color: rgb(26, 255, 0);
+}
+
+#erfan {
+    background-color: brown;
+}
+
+/* .classroom .student {
+    color: blueviolet;
+} */
+
+.student {
+    color: red;
+}
+
+#ali {
+    background-color: darkgreen;
+}
+
+h1.student {
+    color: cornflowerblue;
+}
+
+
+    

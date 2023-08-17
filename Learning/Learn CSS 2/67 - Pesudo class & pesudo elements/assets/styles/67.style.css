@@ -1,0 +1,61 @@
+.link.pesuda a:active {
+    color: rgb(255, 0, 0);
+}
+
+.link.pesuda a:visited {
+    color: blue;
+}
+
+.link.pesuda a:link {
+    color: chocolate;
+}
+
+.link:hover {
+    color: chartreuse;
+}
+
+.link.pesuda a:focus {
+    color: darkslategray;
+}
+
+input:focus {
+    color: #fff;
+    background-color: goldenrod;
+}
+
+/* h1:hover{
+    color: yellowgreen;
+}
+
+p:hover{
+    color: pink;
+} */
+
+.para:hover h1 {
+    color: yellowgreen;
+}
+
+.para:hover p{
+    color: pink;
+}
+
+.para p:first-line{
+    font-weight:bold ;
+    font-style: italic;
+}
+
+.para p:first-letter{
+    color: red;
+}
+
+ul li:before{
+    content: "This is ";
+}
+
+ul li::after{
+    content: "  :))";
+    background-color: gold;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+}

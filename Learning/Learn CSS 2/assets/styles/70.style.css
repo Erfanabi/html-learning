@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: gold;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+    padding: 30px;
+    box-sizing: border-box;
+}

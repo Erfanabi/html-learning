@@ -1,0 +1,41 @@
+/* h1 {
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+} */
+
+.classroom {
+    border: 1px solid black;
+}
+
+.student {
+    color: blue;
+}
+
+.teacher {
+    color: green;
+}
+
+.best {
+    font-weight: bold;
+}
+
+#farzad {
+    background-color: gold;
+}
+
+.classroom .student {
+    font-size: 12px;
+}
+
+.classroom li {
+    color: green;
+}
+
+h1.student {
+    font-family: Verdana;
+}
+
+.classroom p , li {
+    background-color: brown;
+}

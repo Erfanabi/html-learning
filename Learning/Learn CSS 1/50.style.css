@@ -1,0 +1,29 @@
+.parent {
+    border: 4px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bild {
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+
+
+    /* border-radius: 10px; */
+    padding: 10px;
+
+    border-top-left-radius: 20px;
+
+}
+
+.boye {
+    border-top: 2px solid gold;
+    border-left: 4px solid black;
+    border-right: 4px solid rgb(255, 0, 208);
+    border-bottom: 2px solid green;
+    
+
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-size: 25px;
+}
+
+.hex .blue {
+    color: blue;
+}
+
+.hex #green {
+    color: green;
+}
+
+
+.rgb .blue {
+    color: rgb(0, 0, 255);
+}
+
+.rgb #green {
+    color: rgb(0, 255, 0);
+} 
+
+

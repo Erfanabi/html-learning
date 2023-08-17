@@ -1,0 +1,37 @@
+$body-font-size: 16px;
+$body-bg: #eee;
+
+$base-font-url: "/assets/fonts/";
+
+$sizes: 12px, 16px, 20px, 40px;
+
+$primary: #2196F3;
+$danger: #F44336;
+$warning: #FFC107;
+$success: #4CAF50;
+
+$colors: (
+    "primary": $primary,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    // "red": red,
+    // "blue": blue,
+    // "gold": gold,
+    // "violet": violet,
+    // "brown": brown,
+    // "green": green,
+);
+
+
+// .btn.btn-primary {
+//     background-color: $primary;
+// }
+
+// .btn.btn-danger {
+//     background-color: $danger;
+// }
+
+// .btn.btn-warning {
+//     background-color: $warning;
+// }

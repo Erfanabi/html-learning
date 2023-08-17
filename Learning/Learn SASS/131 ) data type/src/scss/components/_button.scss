@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@each $key, $value in $colors {
+    .btn.btn-#{$key} {
+        background-color: $value;
+    }
+}

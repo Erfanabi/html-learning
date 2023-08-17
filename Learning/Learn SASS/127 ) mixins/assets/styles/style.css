@@ -1,0 +1,30 @@
+.btn {
+  color: #fff;
+}
+
+.card {
+  padding: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  box-shadow: 0px 15px 10px -2px rgba(0, 0, 0, 0.5);
+}
+ul li {
+  background-color: red;
+  box-shadow: 0px 15px 10px -2px red;
+}
+ul li a {
+  font-weight: bold;
+  font-size: 25px;
+  box-shadow: 25px 15px 10px -2px blue;
+}
+ul li:hover {
+  background-color: gold;
+}/*# sourceMappingURL=style.css.map */

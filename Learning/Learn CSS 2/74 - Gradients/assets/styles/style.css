@@ -1,0 +1,41 @@
+div {
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.linear {
+    /* background: linear-gradient(to bottom right, red 50%, blue 70%, orange 95%, green); */
+    /* background: linear-gradient(to bottom, red 50%, blue 50% , blue 100%);
+    background-size: 100% 20px; */
+    background: linear-gradient(to bottom right, #8A2387, #E94057 , #F27121);
+}
+
+.radial {
+    background: radial-gradient(#00b09b, #96c93d);
+    /* background: radial-gradient(red, green, blue); */
+}
+
+.conic {
+    /* background: conic-gradient(red, blue, green, red); */
+    background: conic-gradient(#00c3ff, #ffff1c, #00c3ff);
+}
+
+.container {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(to top, #00000088, transparent);
+}

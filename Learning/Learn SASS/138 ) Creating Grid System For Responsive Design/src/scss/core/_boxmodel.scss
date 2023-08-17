@@ -1,0 +1,42 @@
+// @for $i from 1 to 5 {
+//     .mt-#{$i} {
+//         margin-top: 5px;
+//     }
+// }
+
+// $margin-base: 0.2em;
+// $box-model-counts: 5;
+
+// @for $i from 1 to $box-model-counts {
+//     .mt-#{$i} {
+//         margin-top: $margin-base * $i;
+//     }
+
+//     .mb-#{$i} {
+//         margin-top: $margin-base * $i;
+//     }
+// }
+
+
+$margin-base: 0.6em;
+$box-model-counts: 6;
+
+$directions: (
+    "t":"top",
+    "r":"right",
+    "l":"left",
+    "b":"bottom",
+);
+
+
+@each $key, $value in $directions{
+    @for $i from 1 to $box-model-counts {
+        .m#{$key}-#{$i} {
+            margin-#{$value}: $margin-base * $i;
+        }
+
+        .p#{$key}-#{$i} {
+            padding-#{$value}: $margin-base * $i;
+        }
+    }
+}

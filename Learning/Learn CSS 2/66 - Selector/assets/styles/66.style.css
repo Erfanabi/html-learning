@@ -1,0 +1,36 @@
+[data-color] {
+    font-weight: bold;
+}
+
+p[data-color="blue"] {
+    color: blue;
+}
+
+/* div p {
+    background-color: gold;
+} */
+
+div>p {
+    background-color: blueviolet;
+}
+
+.button {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* .button.button-red {
+    background-color: red;
+}
+
+.button.button-blue {
+    background-color: blue;
+} */
+
+.button.button-round {
+    border-radius: 12px;
+}
+
+.button-red {
+    background-color: red;
+}

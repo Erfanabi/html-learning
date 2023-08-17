@@ -1,0 +1,27 @@
+.border-primary {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.linear-primary {
+  background: linear-gradient(to top, red, blue);
+}
+
+.card-orang {
+  background-color: orange;
+  padding: 20px;
+  border: 1px solid orange;
+}
+
+.card-blu {
+  background-color: blue;
+  padding: 20px;
+  border: 1px solid blue;
+}
+
+.btn-primary, .btn {
+  background-color: chocolate;
+  border: none;
+  outline: none;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

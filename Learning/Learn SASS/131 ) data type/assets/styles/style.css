@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Dana;
+  src: url("/assets/fonts/dana/Dana-FaNum-Regular.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: 200;
+  src: url("/assets/fonts/dana/Dana-FaNum-Light.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: bold;
+  src: url("/assets/fonts/dana/Dana-FaNum-DemiBold.ttf");
+}
+body {
+  font-family: Dana;
+}
+
+.bg-primary {
+  background-color: #2196F3;
+}
+
+.bg-danger {
+  background-color: #F44336;
+}
+
+.bg-warning {
+  background-color: #FFC107;
+}
+
+.bg-success {
+  background-color: #4CAF50;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: #2196F3;
+}
+
+.btn.btn-danger {
+  background-color: #F44336;
+}
+
+.btn.btn-warning {
+  background-color: #FFC107;
+}
+
+.btn.btn-success {
+  background-color: #4CAF50;
+}
+
+.card {
+  padding: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+img {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.mag1 {
+    filter: blur(5px);
+}
+
+.mag2 {
+    filter: brightness(90%);
+}
+
+.mag3 {
+    filter: contrast(150%);
+}
+
+.mag11 {
+    filter: drop-shadow(0px 30px 12px grey);
+}
+
+.mag4 {filter: saturate(200%);}
+
+body {
+    margin: 0px;
+    padding: 20px;
+    background-image: url('../images/image.jpg');
+    /* filter: blur(10px); */
+    backdrop-filter: blur(10px);
+}

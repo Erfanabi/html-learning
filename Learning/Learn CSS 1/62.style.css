@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-size: 19px;
+    width: 100px;
+    font-size: 20px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    /* float: left; */
+    box-sizing: border-box;
+
+}
+
+.task1 {
+    background-color: darkorange;
+
+    width: 3cm;
+    height: 30mm;
+    box-sizing: border-box;
+}
+
+.task2 {
+    background-color: darkblue;
+
+    width: 1in;
+    height: 96px;
+}
+
+.task3 {
+    background-color: tomato;
+
+    width: 96px;
+    height: 72pt;
+}
+
+.task4 {
+    background-color: green;
+    width: 8rem;
+}
+
+.task5 {
+    background-color: violet;
+
+    width: 80vw;
+    height: 80vh;
+}
+
+.task6 {
+    background-color: brown;
+
+    width: 80%;
+    /* margin-left:50px ; */
+}

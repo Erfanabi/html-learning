@@ -1,0 +1,5 @@
+@each $key, $value in $colors {
+    .shadow-#{$key} {
+        box-shadow: 0px 8px 15px -2px fade-out($value, 0.6);
+    }
+}

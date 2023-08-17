@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Dana;
+  src: url("/assets/fonts/dana/Dana-FaNum-Regular.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: 200;
+  src: url("/assets/fonts/dana/Dana-FaNum-Light.ttf");
+}
+@font-face {
+  font-family: Dana;
+  font-weight: bold;
+  src: url("/assets/fonts/dana/Dana-FaNum-DemiBold.ttf");
+}
+body {
+  font-family: Dana;
+}
+
+.bg-primary {
+  background-color: #2196F3;
+}
+
+.bg-danger {
+  background-color: #F44336;
+}
+
+.bg-warning {
+  background-color: #FFC107;
+}
+
+.bg-success {
+  background-color: #4CAF50;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  background-color: #2196F3;
+  transition: background-color 120ms;
+  box-shadow: 0px 8px 15px -2px rgba(33, 150, 243, 0.8);
+}
+.btn.btn-primary:hover {
+  background-color: #0c7cd5;
+}
+
+.btn.btn-danger {
+  background-color: #F44336;
+  transition: background-color 120ms;
+  box-shadow: 0px 8px 15px -2px rgba(244, 67, 54, 0.8);
+}
+.btn.btn-danger:hover {
+  background-color: #ea1c0d;
+}
+
+.btn.btn-warning {
+  background-color: #FFC107;
+  transition: background-color 120ms;
+  box-shadow: 0px 8px 15px -2px rgba(255, 193, 7, 0.8);
+}
+.btn.btn-warning:hover {
+  background-color: #d39e00;
+}
+
+.btn.btn-success {
+  background-color: #4CAF50;
+  transition: background-color 120ms;
+  box-shadow: 0px 8px 15px -2px rgba(76, 175, 80, 0.8);
+}
+.btn.btn-success:hover {
+  background-color: #3d8b40;
+}
+
+.card {
+  padding: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
